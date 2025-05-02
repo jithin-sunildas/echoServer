@@ -13,7 +13,7 @@ I built this primarily to learn Rust and low-level network programming concepts 
 
 ## Getting Started
 
-You'll need **Rust and Cargo** installed on your machine (like Fedora!). If you don't have it yet, the easiest way is usually through `rustup`.
+You'll need **Rust and Cargo** installed on your machine. If you don't have it yet, the easiest way is usually through `rustup`.
 
 1.  **Clone this repository:**
     ```bash
@@ -63,6 +63,6 @@ You'll need two separate terminal windows for this!
 * The **Client** uses `std::net::TcpStream::connect` to initiate a connection to the server's address and port.
 * It then enters a loop, reading input from the user (`std::io::stdin().read_line()`), writing that input to the server's stream (`stream.write()`), and reading the echoed response back (`stream.read()`) before printing it.
 
-This project helped me to get a hands on experience on rust and networking basics. And personally coming from a c world perspective, i understand Rust's approach with results. Even though those were confusing at first, writing things in rust really make you think in a rust way.
+This project helped me to get a hands on experience on rust and networking basics. And personally coming from a C/C++ world perspective, i understand Rust's approach with results. Even though those were confusing at first, writing things in rust really make you think in a rust way.
 
 Hope this helps anyone checking out the repo! Feel free to poke around the code in the `server/src/main.rs` and `client/src/main.rs` files.
