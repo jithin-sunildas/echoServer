@@ -17,11 +17,10 @@ You'll need **Rust and Cargo** installed on your machine. If you don't have it y
 
 1.  **Clone this repository:**
     ```bash
-    git clone <URL_of_your_github_repo>
-    cd <your_repo_folder_name>
+    git clone https://github.com/jithin-sunildas/echoServer
+    cd echoServer
     ```
-    (Replace `<URL_of_your_github_repo>` and `<your_repo_folder_name>` with the actual details!)
-
+    
 2.  **Build the project:**
     Since this is a Cargo workspace with two binaries (server and client), you can build both with one command from the root directory:
     ```bash
